@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+
+#box {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #d1e1ff;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  animation: hello 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hello {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  25% {
+    top: 180px;
+    left: 240px;
+  }
+
+  38% {
+    top: 0px;
+    left: 320px;
+  }
+
+  48% {
+    top: 180px;
+    left: 400px;
+  }
+
+  58% {
+    top: 0px;
+    left: 560px;
+  }
+
+  68% {
+    top: 180px;
+    left: 650px;
+  }
+
+  78% {
+    top: 0px;
+    left: 870px;
+  }
+
+  100% {
+    top: 180px;
+    left: 1300px;
+  }
+}
